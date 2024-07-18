@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat, sans-serif';
+    background-color:rgb(183, 86, 125);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:  rgb(163, 16, 94);
+    color: white;
+}
+.boton-agregar:hover {
+    opacity: 0.9;
+}
+
+.item-input {
+    width: 350px;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.boton-editar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background: none;
+    color:  rgb(163, 16, 94);
+    font-family: 'Montserrat, sans-serif';
+    font-size: 1.4rem;
+}
+
+.boton-remover{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(163, 16, 94);
+    font-size: 20px;
+}
